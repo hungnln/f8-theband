@@ -1,0 +1,67 @@
+    @media (max-width: 740px) {
+        #header {
+            overflow: hidden;
+        }
+        #nav>li {
+            display: block;
+        }
+        #nav {
+            display: block;
+        }
+        #nav .subnav {
+            position: initial;
+            background-color: #000;
+        }
+        #nav .subnav a {
+            color: #fff;
+            padding: 0 40px;
+        }
+        #nav li a {
+            padding: 1px 24px;
+        }
+        #nav>li:first-child {
+            display: inline-block;
+        }
+        #header .mobile-menu-btn {
+            display: block;
+        }
+        #header .search-btn {
+            display: none;
+        }
+        #content .section-sub-heading {
+            margin: 15px 0 40px;
+        }
+        #content .content-section {}
+        #content .mobile-col-one {
+            width: 100%;
+        }
+        .tour-detail {
+            padding-bottom: 16px;
+        }
+        .tour-detail:last-child {
+            padding-bottom: 48px;
+        }
+        .contact-info {
+            width: 100%;
+            margin: -30px 0 16px;
+        }
+        .contact-input .input-name,
+        .input-email,
+        .input-message {
+            width: 100%;
+        }
+        .contact-input .input-email {
+            margin-left: 0;
+        }
+        .contact-input .input-message {
+            width: 100%;
+        }
+    }
+    
+    @media (min-width: 740px) and (max-width: 1023px) {}
+    
+    @media (max-width: 1023) {
+        .tour-body .buy-btn {
+            padding: 10px 16px;
+        }
+    }
